@@ -14,8 +14,8 @@ $isTextHTML = str_contains(($_SERVER['HTTP_ACCEPT'] ?? ''), 'text/html');
 
 const LICENSE = "paste-your-license-token-here";
 
-const APP_LIST = "https://raw.githubusercontent.com/Mr-MKZ/VenusTemplate/refs/heads/main/apps.json"; // github LIST of your app.json config
-const OS_LIST = "https://raw.githubusercontent.com/Mr-MKZ/VenusTemplate/refs/heads/main/os.json"; // github link of your os.json config
+const APP_LIST = "https://watchwithme.ir/static/apps.json"; // github LIST of your app.json config
+const OS_LIST = "https://watchwithme.ir/static/os.json"; // github link of your os.json config
 
 const BASE_URL = "https://your-panel.com:8080"; // Replace IP address and port and set https for SSL
 // if port is 80 or 443 you don't need to add it.
